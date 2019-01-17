@@ -1,0 +1,360 @@
+@font-face {
+  font-family: 'AsapBold';
+  src: url("../fonts/AsapBold.eot");
+  src: url("../fonts/AsapBold.eot") format("embedded-opentype"), url("../fonts/AsapBold.woff2") format("woff2"), url("../fonts/AsapBold.woff") format("woff"), url("../fonts/AsapBold.ttf") format("truetype"), url("../fonts/AsapBold.svg#AsapBold") format("svg"); }
+@font-face {
+  font-family: 'AsapMedium';
+  src: url("../fonts/AsapMedium.eot");
+  src: url("../fonts/AsapMedium.eot") format("embedded-opentype"), url("../fonts/AsapMedium.woff2") format("woff2"), url("../fonts/AsapMedium.woff") format("woff"), url("../fonts/AsapMedium.ttf") format("truetype"), url("../fonts/AsapMedium.svg#AsapMedium") format("svg"); }
+@font-face {
+  font-family: 'AsapRegular';
+  src: url("../fonts/AsapRegular.eot");
+  src: url("../fonts/AsapRegular.eot") format("embedded-opentype"), url("../fonts/AsapRegular.woff2") format("woff2"), url("../fonts/AsapRegular.woff") format("woff"), url("../fonts/AsapRegular.ttf") format("truetype"), url("../fonts/AsapRegular.svg#AsapRegular") format("svg"); }
+@font-face {
+  font-family: 'AsapItalic';
+  src: url("../fonts/AsapItalic.eot");
+  src: url("../fonts/AsapItalic.eot") format("embedded-opentype"), url("../fonts/AsapItalic.woff2") format("woff2"), url("../fonts/AsapItalic.woff") format("woff"), url("../fonts/AsapItalic.ttf") format("truetype"), url("../fonts/AsapItalic.svg#AsapItalic") format("svg"); }
+header {
+  position: fixed;
+  width: 100%;
+  top: 0; }
+
+.nav {
+  font-size: 16px;
+  color: #4d4d4d;
+  text-transform: uppercase; }
+
+.nav > li {
+  padding: 0 15px; }
+
+.nav > li > a {
+  padding: 10px 0;
+  color: #4d4d4d; }
+
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: transparent;
+  border-bottom: 2px solid #878787; }
+
+.main {
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 268px;
+  padding-bottom: 298px; }
+
+.h1, h1 {
+  font-size: 90px;
+  color: #4d4d4d;
+  font-family: "AsapMedium"; }
+
+.h2, h2 {
+  font-size: 22px;
+  color: #999999;
+  font-family: "AsapMedium";
+  margin-bottom: 28px; }
+
+.button {
+  border: 1px solid #4d4d4d;
+  color: #4d4d4d;
+  background-color: transparent;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 52px;
+  padding-left: 31px;
+  padding-right: 36px;
+  margin-right: 20px;
+  font-family: "AsapMedium"; }
+
+.button:hover {
+  background-color: white;
+  border: none; }
+
+.main-2 p {
+  font-size: 16px;
+  color: #4d4d4d;
+  font-family: "AsapRegular";
+  padding-bottom: 38px; }
+.main-2 h2 {
+  font-family: "AsapBold";
+  font-size: 46px;
+  color: #717171;
+  margin-top: 40px; }
+
+.know-more .line {
+  margin-top: 130px; }
+.know-more .line:after {
+  content: "___";
+  display: block;
+  font-size: 33px;
+  color: #7a7a7a;
+  width: 33px;
+  height: 4px; }
+
+.man {
+  margin-top: 110px;
+  padding-bottom: 125px; }
+
+.know-more {
+  padding-bottom: 172px; }
+  .know-more button {
+    font-size: 16px;
+    color: #4d4d4d;
+    line-height: 48px;
+    padding: 0 46px;
+    font-family: "AsapMedium";
+    background-color: transparent;
+    border: 1px solid #4d4d4d; }
+
+.main-3 {
+  background-color: #f6f6f6; }
+  .main-3 .line-2 {
+    padding-top: 30px; }
+
+.line-2:after {
+  content: "__";
+  display: block;
+  font-size: 35px;
+  color: #767676; }
+
+.title {
+  font-size: 46px;
+  font-family: "AsapBold";
+  color: #6f6f6f;
+  margin: 0;
+  padding-bottom: 70px; }
+
+.text {
+  font-family: "AsapMedium";
+  font-size: 24px;
+  color: #4d4d4d;
+  padding-bottom: 90px; }
+
+.user img {
+  padding-left: 35px; }
+
+.looks img {
+  padding-left: 20px; }
+
+.IA img {
+  padding-left: 60px; }
+
+.delivery p {
+  padding-left: 55px; }
+.delivery img {
+  padding-left: 65px; }
+
+.Us-test img {
+  padding-left: 60px; }
+.Us-test p {
+  padding-left: 35px; }
+
+.integration img {
+  padding-left: 60px; }
+
+.skills img {
+  margin: auto;
+  padding-bottom: 130px;
+  padding-left: 85px; }
+
+.main-5 {
+  background-color: #f6f6f6; }
+
+.gallery img {
+  padding-bottom: 30px; }
+
+.portfolio button {
+  font-size: 16px;
+  color: #4d4d4d;
+  line-height: 48px;
+  padding: 0 46px;
+  font-family: "AsapMedium";
+  background-color: white;
+  border: none;
+  margin-left: 76px;
+  margin-bottom: 120px; }
+
+.owl-carousel {
+  display: block;
+  border: 1px solid #212121;
+  max-width: 954px;
+  margin: auto;
+  position: relative; }
+
+.word h2 {
+  text-align: center; }
+
+.items {
+  display: inline-block;
+  padding: 81px 0 107px 120px; }
+
+.testimonials {
+  margin-bottom: 123px; }
+  .testimonials h2 {
+    color: #454545;
+    font-family: "AsapMedium";
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0; }
+  .testimonials img {
+    vertical-align: 0;
+    padding-right: 35px;
+    display: inline-block; }
+  .testimonials h3 {
+    color: #828282;
+    font-family: "AsapItalic";
+    font-size: 12px; }
+  .testimonials p {
+    color: #9b9b9b;
+    font-family: "AsapRegular";
+    font-size: 16px;
+    display: inline-block;
+    text-transform: uppercase; }
+
+.info {
+  max-width: 600px;
+  display: inline-block; }
+  .info h2 {
+    margin-bottom: 0; }
+  .info h3 {
+    margin-top: 0;
+    padding-bottom: 21px; }
+
+.photo {
+  display: inline-block; }
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+  background-color: white;
+  width: 11px;
+  height: 11px;
+  margin: 2px;
+  border: solid 1px black; }
+
+.owl-nav {
+  display: none; }
+
+.owl-dots {
+  position: absolute;
+  bottom: 38px;
+  width: 100%;
+  text-align: center; }
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.active {
+  background-color: black;
+  outline: none; }
+
+.strip {
+  background-color: #f6f6f6;
+  padding: 52px 0 65px 0;
+  margin-bottom: 154px; }
+
+.hands {
+  text-align: center; }
+  .hands h3 {
+    font-size: 30px;
+    font-family: AsapRegular;
+    color: #454545; }
+  .hands h4 {
+    font-size: 22px;
+    font-family: AsapMedium;
+    color: #454545; }
+
+footer {
+  background-image: url("../images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 145px 0 30px 0;
+  margin-bottom: 12px; }
+
+footer .container .row .send_b {
+  text-align: center; }
+
+footer .container .row .send_b button {
+  line-height: 48px;
+  text-transform: uppercase;
+  font-family: AsapMedium;
+  font-size: 16px;
+  color: #595959;
+  display: inline-block;
+  margin: 15px 0 58px 0;
+  border: solid #4d4d4d 1px;
+  text-decoration: none;
+  padding: 0 45px 0 47px; }
+
+footer .container .row .send_b button i {
+  font-size: 16px;
+  color: #595959;
+  padding-left: 5px; }
+
+footer .container .row .send_b button:hover {
+  background-color: white;
+  border: none;
+  line-height: 50px;
+  padding: 0 46px 0 48px;
+  -webkit-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75); }
+
+footer .container .row form input {
+  font-family: AsapRegular;
+  margin: 15px;
+  width: 370px;
+  line-height: 57px;
+  padding-left: 9px;
+  font-size: 16px; }
+
+footer .container .row form textarea {
+  margin: 15px;
+  width: 768px;
+  height: 207px;
+  resize: none;
+  padding: 25px 0 0 10px;
+  font-family: AsapRegular;
+  font-size: 16px; }
+
+footer .container .row .h2_center {
+  text-align: center; }
+
+footer .container .row .h2_center h2 {
+  font-size: 46px;
+  font-family: AsapBold;
+  text-transform: uppercase;
+  color: #f3f3f3;
+  text-align: center;
+  position: relative;
+  margin-bottom: 71px;
+  display: inline-block;
+  letter-spacing: 6px; }
+
+footer .container .row .h2_center h2:before {
+  position: absolute;
+  content: "----------";
+  letter-spacing: -10px;
+  color: #c1c1c1;
+  top: -45px;
+  right: 131px; }
+
+footer .container .row .social {
+  border-top: 1px solid white; }
+
+footer .container .row .social .social_icons {
+  line-height: 27px;
+  width: 27px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 4px;
+  margin-top: 26px;
+  background-color: white; }
+
+footer .container .row .social .social_icons:hover {
+  background-color: #0084b4;
+  color: #ffffff; }
+
+footer .container .row p {
+  font-size: 16px;
+  text-align: center;
+  padding-left: 24%;
+  color: #ffffff;
+  display: inline-block; }
+
+/*# sourceMappingURL=style.css.map */
